@@ -1,0 +1,21 @@
+
+.form-switch .form-check-input {
+    height: 24px;
+    width: 48px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+}
+/* .form-switch .form-check-input:focus {
+    border-color: rgb(0, 0, 0);
+    outline: 0;
+    box-shadow: rgb(0, 0, 0);
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(255,255,255,1.0)'/></svg>");
+} */
+.form-switch .form-check-input:checked {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(0,0,0,1.0)'/></svg>");
+}
